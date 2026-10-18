@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs / temp
+*.log
+*.tmp
+
+# 런타임 캐시 — 로컬 경로·UUID 포함, git 추적 안 함
+cache/
+
+# 작업 데이터 — 사용자 사적 자료, git 추적 안 함 (폴더 구조 유지를 위해 .gitkeep만 추적)
+tasks/*
+!tasks/.gitkeep
+
+# 프로젝트 특화 교훈 — 작성자 사적 누적물, git 추적 안 함 (폴더만 유지)
+_local/*
+!_local/.gitkeep
+
+# Module 시스템 제외
+/Java-Service-Tree-Framework-AI/
+/Java-Service-Tree-Framework-Auto-Code/
+/Java-Service-Tree-Framework-Backend-Core/
+/Java-Service-Tree-Framework-Broker-Hub/
+/Java-Service-Tree-Framework-Engine-Fire/
+/Java-Service-Tree-Framework-Frontend-Web/
+/Java-Service-Tree-Framework-Global-Config/
+/Java-Service-Tree-Framework-IaC-System/
+/Java-Service-Tree-Framework-Middle-Proxy/
+/Java-Service-Tree-Framework-Lib-DWR/
